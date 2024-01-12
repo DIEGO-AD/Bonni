@@ -18,27 +18,24 @@ let rtotalreg = Object.values(global.db.data.users).filter(user => user.register
 let more = String.fromCharCode(8206)
 let readMore = more.repeat(850)   
 let taguser = '@' + m.sender.split("@s.whatsapp.net")[0]
-let str = `╭「 𝐁𝐨𝐭 𝐃𝐞 𝐉𝐮𝐚𝐧 」
+let str = `╭「 𝐁𝐨𝐭 𝐝𝐞 𝐁𝐨𝐧𝐧𝐢 」
 │➯𝗛ᴏʟᴀ,➟${taguser}
-│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁:𝙼𝚊𝚝𝚎𝚘 𝙱𝚘𝚝
-│➯ *𝙸𝙽𝙵𝙾: Wa.me/51929741688
-│➯ *Yape: 900711258
+│➯ *𝙲𝚁𝙴𝙰𝙳𝙾𝚁: Bonni
+│➯ *𝙸𝙽𝙵𝙾: Wa.me/5493487478549
 │➯ғᴇᴄʜᴀ:➟${date}
 │➯ᴛɪᴇᴍᴘᴏ ᴀᴄᴛɪᴠᴏ:➟${uptime}
 │➯ᴜsᴜᴀʀɪᴏs:➟${rtotalreg}
 ︎╰───────────────╯
 🍁᭢━━━━━━━━━᭥🍁᭢
 ╭「➻❥*Grupos y cuentas*➻❥」
-│➯𝙷𝙰𝙳𝙴𝚂-𝙼𝚊𝚝𝚎𝚘 𝙱𝚘𝚝
-│➯https://chat.whatsapp.com/Kz6zFTtKva4HaBSqDYfAQf
-│➯𝙷𝙰𝙳𝙴𝚂-𝙼𝚊𝚝𝚎𝚘 𝙱𝚘𝚝
-│➯https://chat.whatsapp.com/Kz6zFTtKva4HaBSqDYfAQf
-│➯𝙷𝙰𝙳𝙴𝚂-𝙼𝚊𝚝𝚎𝚘 𝙱𝚘𝚝
-│➯https://chat.whatsapp.com/Kz6zFTtKva4HaBSqDYfAQf
-│➯𝚙á𝚐𝚒𝚗𝚊 𝚍𝚎 𝙵𝚊𝚌𝚎𝚋𝚘𝚘𝚔
-│➯https://www.facebook.com/groups/987464505464904/?ref=share
+│➯𝙷𝙰𝙳𝙴𝚂-𝐁𝐨𝐭 𝐝𝐞 𝐁𝐨𝐧𝐧𝐢
+│➯https://chat.whatsapp.com/LAh30vuGXTd8KD7Y21rpeA
+│➯𝙷𝙰𝙳𝙴𝚂-𝐁𝐨𝐭 𝐝𝐞 𝐁𝐨𝐧𝐧𝐢
+│➯https://chat.whatsapp.com/LAh30vuGXTd8KD7Y21rpeA
+│➯𝙷𝙰𝙳𝙴𝚂-𝐁𝐨𝐭 𝐝𝐞 𝐁𝐨𝐧𝐧𝐢
+│➯https://chat.whatsapp.com/LAh30vuGXTd8KD7Y21rpeA
 │➯INSTAGRAM
-│➯https://instagram.com/mateo_ventas_?igshid=NTc4MTIwNjQ2YQ==
+│➯https://www.instagram.com/comunidad.nm?igsh=MTIzZG5vbzY4dTlzbw==
 ︎╰───────────────╯`.trim()
 if (m.isGroup) {
 await conn.sendFile(m.chat, vn, 'naa.mp3', null, m, true, { type: 'audioMessage', ptt: true})

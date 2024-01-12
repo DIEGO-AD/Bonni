@@ -9,7 +9,7 @@ export async function before(m, { conn, isAdmin, isBotAdmin, usedPrefix }) {
   let delet = m.key.participant
   let bang = m.key.id
   let name = await conn.getName(m.sender)
-  let fakemek = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "5212411719888@g.us","inviteCode": "m","groupName": "P", "caption": '𝐌𝐚𝐭𝐞𝐨 𝐁𝐨𝐭', 'jpegThumbnail': null}}}
+  let fakemek = {key: {participant: "0@s.whatsapp.net","remoteJid": "0@s.whatsapp.net"},"message": {"groupInviteMessage": {"groupJid": "5212411719888@g.us","inviteCode": "m","groupName": "P", "caption": '𝐁𝐨𝐭 𝐝𝐞 𝐁𝐨𝐧𝐧𝐢', 'jpegThumbnail': null}}}
    if (chat.antiTraba && m.text.length > 2000) { //Cantidad máxima de caracteres aceptados en un mensaje//
     if (isAdmin) return conn.sendMessage(m.chat, { text: `*??? ??????s??????* @${m.sender.split("@")[0]}, *????? ?? ?????? ?? ??x?? ??? ???????? ?????s ?????????s -.-!*`, mentions: [m.sender] }, { quoted: fakemek })
     await conn.sendButton(m.chat, `[?]s? ??????? ?? ???s??? ??? ???????? ?????s ?????????s??*\n`, `${isBotAdmin ? '' : 'No soy administrador, no puedo hacer nada :/'}`, author, ['[??s??????? ???? ?????s]', usedPrefix+'apagar antitraba'], fakemek )
